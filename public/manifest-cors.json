@@ -1,0 +1,31 @@
+{
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
+  "api": [
+    {
+      "url": "http://172.16.95.89:3400/api/static_data",
+      "name": "get_triangle_list_api",
+      "description": "获取基站的信息，信息包含在线基站数量、在线基站占比、组网基站数、基站总数、在线设备账号数、获取基站的信息，信息包含在线基站数量、在线基站占比、组网基站数、基站总数、在线设备账号数、基线总数、在线基线数、三角网总数、在线三角网、虚拟点数量、在线虚拟点、临时虚拟点、sp3星历状态、eph星历状态、解算节点数量、存储节点数量、调度节点数量、需要你根据英文翻译成中文来理解",
+      "parameters": {
+        "properties": {
+          "question": {
+            "type": "string",
+            "description":""
+          }
+        },
+        "required": ["question"],
+        "type": "object"
+      }
+    }
+  ],
+  "author": "LH",
+  "createdAt": "2023-09-03",
+ 
+  "identifier": "plugin-identifier-cors",
+  "meta": {
+    "avatar": "🚀",
+    "tags": ["template"],
+    "title": "get triangle list",
+    "description": "获取基站的信息，信息包含在线基站数量、在线基站占比、组网基站数、基站总数、在线设备账号数、获取基站的信息，信息包含在线基站数量、在线基站占比、组网基站数、基站总数、在线设备账号数、基线总数、在线基线数、三角网总数、在线三角网、虚拟点数量、在线虚拟点、临时虚拟点、sp3星历状态、eph星历状态、解算节点数量、存储节点数量、调度节点数量、需要你根据英文翻译成中文来理解"
+  },
+  "version": "1"
+}
